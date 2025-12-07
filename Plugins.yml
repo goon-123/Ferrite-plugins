@@ -1,0 +1,14 @@
+name: goon's YAML plugins
+author: goon
+actions:
+  - name: Open in VidHub
+    version: 1
+    minVersion: '0.6.4'
+    about: >-
+      Plays the current video in VidHub.
+    website: https://vidhub.okaapps.com/
+    requires:
+      - debrid
+    deeplink:
+      - os: iOS
+        scheme: open-vidhub://x-callback-url/open?url={link}
