@@ -11,4 +11,4 @@ actions:
       - debrid
     deeplink:
       - os: iOS
-        scheme: open-vidhub://x-callback-url/open?url={link}
+        scheme: open-vidhub://x-callback-url/open?url={link}&sub={subtitle}
